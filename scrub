@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sensitive=$1
+input=$2
+
+pipenv run python scrub.py $sensitive $input
