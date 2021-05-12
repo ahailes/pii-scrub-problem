@@ -3,10 +3,6 @@ import json
 from scrub import scrub
 
 
-# def pytest_generate_tests(metafunc):
-#     metafunc.parametrize("directory", ["00_basic"], indirect=True)
-
-
 @pytest.fixture(
     params=[
         "00_basic",
